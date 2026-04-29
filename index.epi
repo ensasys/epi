@@ -1,0 +1,10 @@
+factorial is mfunc ( n ) {
+ con1 is ? False ?? n <= 1 {
+  return is 1
+ }
+ con2 is ? con1 ?? True {
+  return is n * factorial ( n - 1 )
+ }
+}
+g is factorial ( 5 )
+print [ g ]

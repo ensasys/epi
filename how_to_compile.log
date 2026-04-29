@@ -1,0 +1,3 @@
+haxe --main Main -lib hscript --interp
+
+"should execute by -e" which can only be done after compilation
